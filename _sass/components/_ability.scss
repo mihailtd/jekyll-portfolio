@@ -1,0 +1,80 @@
+.abilities {
+  list-style: none;
+  margin: 1.5em 0;
+
+  li {
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    color: #fff;
+  }
+}
+[class^="ability-"] {
+  position: relative;
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: "";
+  }
+  &:before {
+    content: "";
+    top: 0.5em;
+    margin-left: -2em;
+    text-align: right;
+    color: #fff;
+  }
+  &:after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: $brand-color;
+    z-index: -1;
+  }
+}
+
+$abilities: (
+  'html': 80,
+  'design': 65,
+  'js': 80,
+  'ts': 80,
+  'angular': 30,
+  'react': 20,
+  'meteor': 20,
+  'aurelia': 60,
+  'jquery': 80,
+  'templating': 60,
+  'fe-tools': 70,
+  'md': 50,
+  'static-sites': 80,
+  'node': 60,
+  'rest': 70,
+  'express': 65,
+  'json': 95,
+  'security': 50,
+  'nosql': 50,
+  'sql': 80,
+  'ides': 75,
+  'shell': 60,
+  'version-tracking': 70,
+  'tools': 70,
+  'networking': 50,
+  'social': 85
+);
+
+@each $ability, $score in $abilities {
+  @keyframes show-ability-#{$ability} {
+    from { width: 0; }
+    to {width: $score*1%; }
+  }
+  .ability-#{$ability} {
+    &:before {
+      content: "#{$score}";
+      left: $score*1%;
+    }
+    &:after {
+      animation: show-ability-#{$ability} ease-in-out .8s .2s 1;
+      animation-fill-mode: forwards;
+    }
+  }
+}
