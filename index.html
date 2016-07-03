@@ -3,21 +3,21 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <!-- section for deatured posts -->
+  <!-- section for deatured projects -->
+  <!-- section for latest articles -->
+  <section class="site-section site-section-last">
+    <div class="wrapper">
+      <h1>latest articles</h1>
+      <ul class="post-list">
+        <li class="post">
+          <h2>post title</h2>
+          <p>Amet fugiat minim non laboris reprehenderit aliquip labore. Fugiat laborum do aliqua sint labore. Mollit irure occaecat veniam non ullamco dolore. Ut Lorem enim id duis id. Non labore exercitation in velit cillum. Culpa veniam occaecat cupidatat qui elit occaecat sint voluptate minim qui. Veniam deserunt officia est cillum eu.</p>
+          <p class="read-more-link">
+            <a href="#">read more...</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
 </div>
