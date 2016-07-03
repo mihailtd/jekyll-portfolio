@@ -2,11 +2,12 @@
 
   <div class="wrapper">
     <div class="footer-content">
-      <h3>lorem ipsum</h3>
-      <p>Qui sit deserunt nostrud fugiat occaecat do fugiat exercitation qui pariatur eiusmod nulla qui. Et sit quis in anim
-        ad culpa Lorem tempor. Est esse veniam duis ex in pariatur. Velit minim quis sit adipisicing eiusmod consectetur
-        nostrud. Aliquip officia non minim officia est ipsum anim pariatur laborum adipisicing enim et incididunt. Do sint
-        amet irure cillum cupidatat dolore ea amet sint in nostrud. Adipisicing qui proident laborum consequat.</p>
+      <h3>Thank you!</h3>
+      <p>Icons on this page made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> and  
+      <a href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> from www.flaticon.com.
+      Also many thanks to <a href="http://github.com/guyroutledge"> <span class="icon icon--github">{% include icon-github.svg %}</span> <span>guyroutledge</span></a>
+      for the great tutorial.
+      </p>
       <p>subscribe <a href="{{ '/feed.xml'| prepend: site.baseurl }}">via RSS</a></p>
     </div>
     <div class="footer-social">
@@ -15,7 +16,7 @@
           <a href="http://twitter.com/{{ site.twitter_username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span> {{ site.twitter_username }} </a>
         </li>
         <li>
-          <a href="http://github.com/{{ site.github_username }}"> <span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span>            {{ site.github_username }} </a>
+          <a href="http://github.com/{{ site.github_username }}"> <span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span> {{ site.github_username }} </a>
         </li>
       </ul>
     </div>
