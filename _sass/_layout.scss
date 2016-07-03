@@ -29,7 +29,6 @@
 
 
 // Footer
-
 .site-footer {
     padding: 2em 0;
     color: #fff;
@@ -51,4 +50,16 @@
         display: inline-block;
         margin: 0 0 0.5em;
     }
+}
+
+
+// Sections
+.site-section {
+    @extend %clearfix;
+    padding-top: $h1-font-size
+}
+
+.site-section-last {
+    @extend %clearfix;
+    padding-bottom: $h1-font-size
 }
