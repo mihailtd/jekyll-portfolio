@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Parvumque dimissis"
+title:  "Project 2"
 date:   2016-07-03 13:56:46 +0300
 categories: project
+featured_image: "images/project.svg"
 tags: article
 ---
 

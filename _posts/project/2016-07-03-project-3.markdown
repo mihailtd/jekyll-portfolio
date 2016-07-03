@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Possem me illa"
+title:  "Project 3"
 date:   2016-07-03 13:56:46 +0300
 categories: project
+featured_image: "images/project.svg"
 tags: code
 ---
 

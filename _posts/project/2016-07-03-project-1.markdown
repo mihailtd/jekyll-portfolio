@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Ille antro"
+title:  "Project 1"
 date:   2016-07-03 13:56:46 +0300
 categories: project
+featured_image: "images/project.svg"
 tags: code
 ---
 
