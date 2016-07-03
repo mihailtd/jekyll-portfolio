@@ -2,7 +2,8 @@
 layout: post
 title:  "Ille antro"
 date:   2016-07-03 13:56:46 +0300
-categories: jekyll update
+categories: project
+tags: code
 ---
 
 ## Hanc ope observata fugae fronte ternisque Phoebo

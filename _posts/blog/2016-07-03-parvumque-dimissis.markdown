@@ -2,7 +2,8 @@
 layout: post
 title:  "Parvumque dimissis"
 date:   2016-07-03 13:56:46 +0300
-categories: jekyll update
+categories: blog
+tags: article
 ---
 
 ## Phaethon magnum exspectatum feret

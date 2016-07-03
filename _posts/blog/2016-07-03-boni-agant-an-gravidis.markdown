@@ -2,7 +2,8 @@
 layout: post
 title:  "Boni agant an gravidis"
 date:   2016-07-03 13:56:46 +0300
-categories: jekyll update
+categories: blog
+tags: design
 ---
 
 ## Quaeras sed petiti mille comprenditur pugnat de

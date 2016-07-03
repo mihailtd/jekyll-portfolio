@@ -18,3 +18,14 @@
   float: none;
   margin: 0 auto;
 }
+.post-tags {
+  margin-left: 0;
+  min-height: 50px;
+  text-align: center;
+  li {
+    display: inline;
+  }
+  img {
+    height: 50px;
+  }
+}
