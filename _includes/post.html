@@ -5,7 +5,7 @@
   </li>
   {% endfor %}
 </ul>
-<h2> <a href="{{ post.url | prepend:site.baseurl }}"> {{ post.title }} </a></h2>
+<h2> <a class="post-link" href="{{ post.url | prepend:site.baseurl }}"> {{ post.title }} </a></h2>
 <p> {{ post.content | strip_html | strip_newlines | truncate: 200 }} </p>
 <p class="read-more-link">
   <a href="{{ post.url | prepend:site.baseurl }}">read more...</a>
