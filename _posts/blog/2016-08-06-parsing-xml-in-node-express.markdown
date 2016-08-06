@@ -170,10 +170,6 @@ app.post('/xml', (req, res) => {
   let bookshelf = jsXml.bookshelf.book;
   console.log(bookshelf);
   
-  /* 
-  * if you dont return anything, you leave the request hanging, which is very
-  * unpolite
-  */
   return res.status(200).send('OK');
 });
 ```
