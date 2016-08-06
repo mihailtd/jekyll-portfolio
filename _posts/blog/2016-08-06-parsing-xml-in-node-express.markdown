@@ -3,7 +3,8 @@ layout: post
 title:  "Parsing XML in a Node Express App"
 date:   2016-08-06 21:30:00 +0200
 categories: blog
-tags: design
+tags: code
+featured: true
 ---
 
 # Parsing XML in a Node Express App
