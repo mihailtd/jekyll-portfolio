@@ -3,7 +3,6 @@ layout: post
 title:  "Dona deos"
 date:   2016-07-03 13:56:46 +0300
 categories: blog
-featured: true
 tags: design code
 ---
 
