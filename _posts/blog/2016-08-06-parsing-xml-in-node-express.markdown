@@ -7,8 +7,6 @@ tags: code
 featured: true
 ---
 
-# Parsing XML in a Node Express App
-
 >This is a simple way to parse received XML data. If your aplication needs to be 
 able to receive data in XML format and, for example save it to a database, you 
 will need to parse it, and maybe convert it to another type for easyer 
