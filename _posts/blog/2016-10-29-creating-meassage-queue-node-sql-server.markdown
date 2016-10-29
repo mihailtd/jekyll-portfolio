@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Creating a Message Queue with Node and SQL Server"
+title:  "Creating a Message Queue with NodeJS and SQL Server"
 date:   2016-10-29 14:24:00 +0300
 categories: blog
-tags: code, database
+tags: code database
+featured: true
 ---
 
 > Creating a message queue / dispatcher using NodeJS and SQL Server. 
@@ -17,7 +18,8 @@ inserts data into this table and updates a flag when a message should be queued 
 
 Let's define the schema: 
 | ID | UserID | Message | ToSend | Status |
-|----|--------|---------|--------|--------|
+|----|:------:|:-------:|:------:|-------:|
+|----|:------:|:-------:|:------:|-------:|
 
 Where ID is an auto incrementing identifier for an entry in this table. 
 Lets asume these are some alerts or some kind of messages that should be sent to a user, 
@@ -36,7 +38,7 @@ We will insert the data and set the flag to '1' manually and only focus on what 
 We will also include error handling and and validation.
 
 So here is the basic flowchart of this service: 
-![basic flowchart][basic-flowchart]
+<img src="{{ site.baseurl }}/images/article-images/art-2-basic-flowchart.svg" alt="basic flowchart">
 
 We will need some kind of repetitive task runner, so that our service runs perpetually.
 
@@ -49,7 +51,3 @@ which causes the application to crash.
 For not we are not getting into the details of the 'Process' block, this will come later.
 
 Ok, Now that we've define what we will build let's start building it: 
-
-
-
-[basic-flowchart]: ./images/article-images/art-2-basic-flowchart.svg
