@@ -3,7 +3,7 @@ layout: post
 title:  "Creating a Message Queue with NodeJS and SQL Server"
 date:   2016-10-29 14:24:00 +0300
 categories: blog
-tags: code database
+tags: database
 featured: true
 ---
 
@@ -38,7 +38,7 @@ We will insert the data and set the flag to '1' manually and only focus on what 
 We will also include error handling and and validation.
 
 So here is the basic flowchart of this service: 
-<img src="{{ site.baseurl }}/images/article-images/art-2-basic-flowchart.svg" alt="basic flowchart">
+<img src="../../images/article-images/art-2-basic-flowchart.svg" alt="basic flowchart">
 
 We will need some kind of repetitive task runner, so that our service runs perpetually.
 
