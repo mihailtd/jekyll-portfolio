@@ -3,7 +3,10 @@ title: Test
 layout: post
 author: farcasmihai91
 permalink: /test/
+tags:
+- analytics
 categories: blog
+date: 2017-02-22 03:56:46 -0700
 source-id: 1eTWz-0QxxUoW0jAdrwBzFIZlFn9PSkyI5JXxF9Hzaic
 published: true
 ---
