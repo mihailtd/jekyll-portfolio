@@ -3,6 +3,7 @@ title: Test
 layout: post
 author: farcasmihai91
 permalink: /test/
+categories: blog
 source-id: 1eTWz-0QxxUoW0jAdrwBzFIZlFn9PSkyI5JXxF9Hzaic
 published: true
 ---
