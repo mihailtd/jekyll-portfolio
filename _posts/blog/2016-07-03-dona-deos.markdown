@@ -3,7 +3,9 @@ layout: post
 title:  "Dona deos"
 date:   2016-07-03 13:56:46 +0300
 categories: blog
-tags: design code
+tags: 
+ - design
+ - code
 ---
 
 ## Sublatus desierant annis concurretque tenebat nec fortis
