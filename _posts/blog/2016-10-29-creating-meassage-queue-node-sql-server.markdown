@@ -3,9 +3,7 @@ layout: post
 title:  "Creating a Message Queue with NodeJS and SQL Server"
 date:   2016-10-29 14:24:00 +0300
 categories: blog
-tags: 
- - code
- - database
+tags: database
 featured: true
 ---
 
